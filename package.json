@@ -1,0 +1,22 @@
+{
+  "name": "weatherapp_backend",
+  "version": "1.0.0",
+  "description": "Backend server for weatherapp",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "server": "nodemon index.js"
+  },
+  "author": "SATAR",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.20.2",
+    "cors": "^2.8.5",
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
+    "mysql2": "^3.5.2",
+    "nodemon": "^3.0.1",
+    "react-scripts": "^5.0.1",
+    "request": "^2.88.2"
+  }
+}
